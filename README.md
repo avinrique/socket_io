@@ -21,7 +21,6 @@ This is a simple example of a Socket.IO server and client application using Expr
    node client.js
 ## Modifying Server URL in Client
 ### Change the server address for the socketio connection
-1. Using javascript
 ```javascript
 const socket = io("http://your-server-ip-or-domain");
 ```
